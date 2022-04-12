@@ -1,0 +1,112 @@
+body{
+
+background-color: #093a3e;
+
+padding: 50px;
+font-family: 'Brygada 1918', serif;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Raleway', sans-serif;
+font-size: 25px;
+}
+
+
+h3{
+
+  font-size: 22px;
+  color: #fbf5f5;
+  filter: sepia();
+}
+
+p{
+  color: #fbf5f5;
+ filter: sepia();
+}
+
+.companyname {
+
+
+  color: blue;
+  font-weight: 2000;
+}
+
+.loc{
+  color: black;
+}
+
+.name {
+  font-size: 50px;
+  font-family: 'Brygada 1918', serif;
+  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Raleway', sans-serif;
+  color: #fbf5f5;
+  filter: sepia();
+/* source: https://css-tricks.com/snippets/css/typewriter-effect/*/
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #386641; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 70% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #386641 }
+}
+
+#Resumecontent{
+
+grid-column: 2;
+  grid-row: 1 / span 2;
+  height: 100%;
+  background-color: #f4f3f1;
+  padding: 2%;
+
+    margin: 1%;
+    font-size: .8em;
+}
+
+.content{
+  display: grid;
+  grid-template-columns: 60% auto;
+  grid-column-gap: 2%;
+  height: 30%;
+
+
+}
+
+.main{
+margin-top: 200px;
+
+}
+
+.mainbox{
+display: flex;
+flex-direction: row;
+
+}
+
+.dates {
+  font-size: 16px;
+}
+
+.school{
+
+  font-size: 20px;
+}
+
+.description{
+
+  font-size: 18px;
+}
